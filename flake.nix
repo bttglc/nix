@@ -9,10 +9,12 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
+    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
+
     mac-app-util.url = "github:hraban/mac-app-util"; # Makes apps findable by Spotlight
   };
 
-  outputs = inputs @ { self, nixpkgs, nix-darwin, home-manager, mac-app-util, ... }:
+  outputs = inputs @ { self, nixpkgs, nix-darwin, home-manager, nix-homebrew, mac-app-util, ... }:
   let
     system = "aarch64-darwin";
     username = "saturn";
@@ -62,6 +64,20 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.${username} = ./home-manager/home.nix;
+        }
+
+        nix-homebrew.darwinModules.nix-homebrew
+        {
+          nix-homebrew = {
+            # Install Homebrew under the default prefix
+            enable = true;
+
+            # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
+            enableRosetta = true;
+
+            # User owning the Homebrew prefix
+            user = username;
+          };
         }
       ];
     };
