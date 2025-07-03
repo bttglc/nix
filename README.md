@@ -18,11 +18,13 @@
 │   │   └── packages.nix       # basic terminal utilities
 │   └── home-manager
 │       ├── alacritty.nix      # fast terminal emulator
-│       ├── default.nix
-│       ├── firefox.nix        # chrome? no thanks!
+│       ├── default.nix        # also includes all pkgs that don't have a default option
+│       ├── brew.nix           # casks and packages handled via homebrew
+│       ├── eza.nix            # modern ls replacement
+│       ├── firefox.nix        # hardening and cosmetic policies
 │       ├── git.nix            # user specific git configuration
-│       ├── neovim.nix         # default editor
-│       └── zsh.nix            # default shell
+│       ├── neovim.nix         # default editor setup
+│       └── zsh.nix            # default shell setup
 └── secrets                    # TODO
 
 ```
