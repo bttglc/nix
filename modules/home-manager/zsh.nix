@@ -61,12 +61,20 @@
       ".." = "cd ..";                    # Go up one directory
       "..." = "cd ../..";                # Go up two directories  
       "...." = "cd ../../..";            # Go up three directories
-      
+     
+      # substitute ls with eza, a modern alternative with colors and icons
+      "ls" = "${pkgs.eza}/bin/eza";
+      "l" = "${pkgs.eza}/bin/eza -lah";
+      "ll" = "${pkgs.eza}/bin/eza -l";
+      "la" = "${pkgs.eza}/bin/eza -a";
+      "lt" = "${pkgs.eza}/bin/eza --tree";
+      "lla" = "${pkgs.eza}/bin/eza -la";
+
       # ls variants - different ways to list files
-      "l" = "ls -lah";                   # Long format, all files, human readable sizes
-      "la" = "ls -lAh";                  # Long format, all except . and .., human readable
-      "ll" = "ls -lh";                   # Long format, human readable sizes
-      "ls" = "ls --color=auto";          # Always colorize ls output
+      #"l" = "ls -lah";                   # Long format, all files, human readable sizes
+      #"la" = "ls -lAh";                  # Long format, all except . and .., human readable
+      #"ll" = "ls -lh";                   # Long format, human readable sizes
+      #"ls" = "ls --color=auto";          # Always colorize ls output
       
       # Git shortcuts - common git commands
       "g" = "git";                       # Just 'g' instead of 'git'
@@ -117,6 +125,7 @@
         "aws"                           # AWS CLI completions
         "macos"                         # macOS specific commands (trash, etc.)
         "brew"                          # Homebrew completions and aliases
+        "colorize"                      # Syntax highlighting for various file types
         "colored-man-pages"             # Colorize man pages
         "command-not-found"             # Suggest packages when command not found
         "common-aliases"                # Useful aliases (grep colors, etc.)
@@ -127,7 +136,6 @@
         "jsontools"                     # JSON formatting and validation
         "web-search"                    # Search web from command line (google, stackoverflow, etc.)
         "z"                             # Jump to frequently used directories
-
       ];
     };
   };
