@@ -128,6 +128,13 @@
 	        private_browsing = true;
 	      };
 
+        # Tokyo Night Storm - Theme
+        "{d93bd30c-91f5-4a10-842e-2a1b325d0e2e}" = {
+          installation_mode = "normal_installed";
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/tokyo-night-storm/latest.xpi";
+          private_browsing = true;
+        };
+
         # uBlock Origin - Ad & tracker blocker
         "uBlock0@raymondhill.net" = {
           installation_mode = "normal_installed";

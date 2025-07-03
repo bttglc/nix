@@ -19,50 +19,50 @@
   in {
     darwinConfigurations."saturn" = nix-darwin.lib.darwinSystem {
       inherit system;
-
+        
       # You can pass variables to modules if needed
       specialArgs = { inherit system; };
 
       modules = [
         ./darwin/default.nix
-	./modules/darwin/default.nix
+	      ./modules/darwin/default.nix
         mac-app-util.darwinModules.default
 
-	{
+	      { 
+          # Set host OS  
           nixpkgs.hostPlatform = system;
+
+          # Allow unfree packages like Obsidian, Minecraft, etc
+          nixpkgs.config.allowUnfree = true;
 
           # Enable Flakes + nix-command
           nix.settings.experimental-features = "nix-command flakes";
-
-          # Enable optional shells
-          programs.fish.enable = true;
 
           system.configurationRevision = self.rev or self.dirtyRev or null;
           system.stateVersion = 6;
         }
 
-	home-manager.darwinModules.home-manager
-	(
-	  { pkgs, config, inputs, ... }:
+	      home-manager.darwinModules.home-manager
+	      (
+	      { pkgs, config, inputs, ... }:
             {
               # Enabling mac app fix for all users:
               home-manager.sharedModules = [
                 mac-app-util.homeManagerModules.default
               ];
             }
-	)
-	{
-	    # Define user info explicitly in nix-darwin
-            users.users.${username} = {
-              name = username;
-              home = "/Users/${username}";
-            };
+	      )
+	      {
+	        # Define user info explicitly in nix-darwin
+          users.users.${username} = {
+            name = username;
+            home = "/Users/${username}";
+          };
 
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.${username} = ./home-manager/home.nix;
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.${username} = ./home-manager/home.nix;
         }
-
       ];
     };
   };
