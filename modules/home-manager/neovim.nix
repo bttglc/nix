@@ -24,20 +24,20 @@
       # Language servers
       lua-language-server      # Lua LSP
       nil                      # Nix LSP
-      rust-analyzer           # Rust LSP
-      clang-tools             # C/C++ LSP (clangd)
-      pyright                 # Python LSP
-      jdt-language-server     # Java LSP
-      fsautocomplete          # F# LSP
-      gopls                   # Go LSP
+      rust-analyzer            # Rust LSP
+      clang-tools              # C/C++ LSP (clangd)
+      pyright                  # Python LSP
+      jdt-language-server      # Java LSP
+      fsautocomplete           # F# LSP
+      gopls                    # Go LSP
       
       # Formatters
-      stylua                  # Lua formatter
+      stylua                 # Lua formatter
       nixpkgs-fmt            # Nix formatter
       rustfmt                # Rust formatter
       black                  # Python formatter
       google-java-format     # Java formatter
-      go                  # Go formatter
+      go                     # Go formatter
       
       # Other tools
       ripgrep                # Fast grep (needed for Telescope)

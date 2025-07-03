@@ -122,17 +122,17 @@
         # 3. install_url format: https://addons.mozilla.org/firefox/downloads/latest/<addon-name>/latest.xpi
 
         # Firefox Color - Theme manager
-	"FirefoxColor@mozilla.com" = {
-	  installation_mode = "normal_installed";
-	  install_url = "https://addons.mozilla.org/firefox/downloads/latest/firefox-color/latest.xpi";
-	  private_browsing = true;
-	};
+	      "FirefoxColor@mozilla.com" = {
+	        installation_mode = "normal_installed";
+	        install_url = "https://addons.mozilla.org/firefox/downloads/latest/firefox-color/latest.xpi";
+	        private_browsing = true;
+	      };
 
         # uBlock Origin - Ad & tracker blocker
         "uBlock0@raymondhill.net" = {
           installation_mode = "normal_installed";
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
-          private_browsing = true;               # Allow in private browsing
+          private_browsing = true;
         };
 
         # Bitwarden - Password manager
@@ -145,16 +145,16 @@
         # Vimium - Vim-like keyboard navigation
         "{d7742d87-e61d-4b78-b8a1-b469842139fa}" = {
           installation_mode = "normal_installed";
-          install_url = "https://addons.mozilla.org/firefox/downloads/latest/vimium/latest.xpi";
+          install_url = "https://addons.mozilla.org/firefox/downloads/latest/vimium-ff/latest.xpi";
           private_browsing = true;
         };
 
-	# Dark Reader - Default everything to dark mode
+	      # Dark Reader - Default everything to dark mode
         "addon@darkreader.org" = {
-	  installation_mode = "normal_installed";
+	        installation_mode = "normal_installed";
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi";
-	  private_browsing = true;
-	};
+	        private_browsing = true;
+	      };
       };
     };
   };
