@@ -18,50 +18,8 @@
       extended = true;                             # Save timestamp and duration with each command
     };
 
-    # Shell options - these modify Zsh behavior (setopt is Zsh's way to enable features)
-    setopt = [
-      "HIST_VERIFY"              # Show command with history expansion before running it
-      "HIST_IGNORE_ALL_DUPS"     # Remove older duplicate from history when adding new one
-      "HIST_REDUCE_BLANKS"       # Remove extra whitespace from commands before saving
-      "HIST_FIND_NO_DUPS"        # Don't show duplicates when searching history
-      "SHARE_HISTORY"            # Share history between all Zsh sessions in real-time
-      "INC_APPEND_HISTORY"       # Add commands to history immediately, not when shell exits
-      "AUTO_CD"                  # Type directory name without 'cd' to change to it
-      "GLOB_DOTS"                # Include hidden files (starting with .) in glob patterns
-      "CORRECT"                  # Suggest corrections for mistyped commands
-      "MENU_COMPLETE"            # Insert first completion match immediately, cycle with TAB
-      "AUTO_LIST"                # Show completions list automatically on ambiguous completion
-      "AUTO_PARAM_SLASH"         # Add trailing slash when completing directory names
-      "COMPLETE_IN_WORD"         # Allow completion in middle of word, not just at end
-    ];
-
-    # Completion styling - how tab completion looks and behaves
-    completionInit = ''
-      # Case insensitive completion - 'Doc' matches 'documents'
-      zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-      
-      # Colorful completion - use same colors as ls command
-      zstyle ':completion:*' list-colors "''${(s.:.)LS_COLORS}"
-      
-      # Menu selection - use arrow keys to navigate completions
-      zstyle ':completion:*' menu select
-      
-      # Group matches and describe - organize completions by type
-      zstyle ':completion:*' group-name ""
-      zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
-      
-      # Better kill completion - colorize process list for kill command
-      zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
-      zstyle ':completion:*:*:*:*:processes' command "ps -u $USER -o pid,user,comm -w -w"
-    '';
-
     # Aliases - shortcuts for common commands
     shellAliases = {
-      # Directory navigation shortcuts
-      ".." = "cd ..";                    # Go up one directory
-      "..." = "cd ../..";                # Go up two directories  
-      "...." = "cd ../../..";            # Go up three directories
-     
       # substitute ls with eza, a modern alternative with colors and icons
       "ls" = "${pkgs.eza}/bin/eza";
       "l" = "${pkgs.eza}/bin/eza -lah";
@@ -70,12 +28,6 @@
       "lt" = "${pkgs.eza}/bin/eza --tree";
       "lla" = "${pkgs.eza}/bin/eza -la";
 
-      # ls variants - different ways to list files
-      #"l" = "ls -lah";                   # Long format, all files, human readable sizes
-      #"la" = "ls -lAh";                  # Long format, all except . and .., human readable
-      #"ll" = "ls -lh";                   # Long format, human readable sizes
-      #"ls" = "ls --color=auto";          # Always colorize ls output
-      
       # Git shortcuts - common git commands
       "g" = "git";                       # Just 'g' instead of 'git'
       "ga" = "git add";                  # Stage changes
@@ -104,8 +56,8 @@
     };
 
     # Powerlevel10k setup - nerd theme
-    initExtra = "source ~/.p10k.zsh";
-    programs.zsh.plugins = [   
+    initContent = "source ~/.p10k.zsh";
+    plugins = [   
       {                                                                                   
         name = "powerlevel10k";                                                           
         src = pkgs.zsh-powerlevel10k;                                                     
