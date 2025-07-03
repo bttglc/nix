@@ -44,8 +44,8 @@
       "rm" = "rm -i";                    # Ask before deleting files
       
       # Nix shortcuts - common Nix commands
-      "drw" = "darwin-rebuild switch";    # Rebuild and switch Nix configuration
-      "ncg" = "nix-collect-garbage";      # Collect Nix garbage
+      "drs" = "sudo darwin-rebuild switch";    # Rebuild and switch Nix configuration
+      "ncg" = "nix-collect-garbage";           # Collect Nix garbage
     };
 
     # Environment variables - set global variables for the shell session
