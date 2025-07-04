@@ -6,6 +6,9 @@
       # CLI utility to get Apple Store ID
       "mas"
 
+      # Java JDK (includes JRE)
+      "openjdk"
+
       # Mesh net VPN based on Wireguard
       "tailscale"
     ];
@@ -31,6 +34,9 @@
       
       # Gaming client and store
       "steam"
+
+      # OCR navigation
+      "superkey"
 
       # Window and tiling manager
       "rectangle"
