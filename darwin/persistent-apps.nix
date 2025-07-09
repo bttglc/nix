@@ -3,6 +3,7 @@
 {
   system.defaults.dock.persistent-apps = [
     "/Applications/Things3.app"
+    "${pkgs.obsidian}/Applications/Obsidian.app"
     "${pkgs.alacritty}/Applications/Alacritty.app"
     "${pkgs.firefox}/Applications/Firefox.app"
     "/Applications/Steam.app/"

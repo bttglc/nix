@@ -8,9 +8,6 @@
 
       # Java JDK (includes JRE)
       "openjdk"
-
-      # Mesh net VPN based on Wireguard
-      "tailscale"
     ];
 
     casks = [
@@ -22,6 +19,9 @@
 
       # Wine-based software to execute Windows programs
       "crossover"  
+
+      # VoIP client
+      "discord"
 
       # Text expansion utility
       "espanso"
@@ -40,6 +40,9 @@
 
       # Window and tiling manager
       "rectangle"
+
+      # Mesh net VPN
+      "tailscale"
 
       # Torrent client
       "transmission"
