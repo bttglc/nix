@@ -8,7 +8,7 @@
     # Videogames
       # Minecraft
       ferium
-      pakku
+      #pakku is not working yet?
   ];
 
   imports = [
