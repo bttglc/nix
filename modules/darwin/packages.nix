@@ -6,7 +6,9 @@
   age-plugin-yubikey # YubiKey plugin for age
   
   bat # Cat clone with syntax highlighting
- 
+
+  cargo # Rust package manager
+
   eza # Icons for files
 
   fd # Fast find alternative
