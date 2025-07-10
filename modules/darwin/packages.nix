@@ -10,6 +10,7 @@
   eza # Icons for files
 
   fd # Fast find alternative
+  ferium # CLI Minecraft mod manager
   ffmpeg # Multimedia framework
   fish # Scriptable shell
   fzf # Fuzzy finder
@@ -27,6 +28,7 @@
   neovim # Editor
 
   pandoc # Document converter
+  pakku # Minecraft modpack manager
 
   ripgrep # Fast text search tool
   rsync # Sync

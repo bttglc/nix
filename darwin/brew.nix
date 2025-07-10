@@ -41,11 +41,11 @@
       # Window and tiling manager
       "rectangle"
 
-      # Mesh net VPN
-      "tailscale"
-
       # Torrent client
       "transmission"
+
+      # A focused browser based on Firefox
+      "zen"
     ];
 
     masApps = 
