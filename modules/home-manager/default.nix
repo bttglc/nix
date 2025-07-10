@@ -3,11 +3,12 @@
 {
   home.packages = with pkgs; [
     # Note taking
-      obsidian
+    obsidian
     
     # Videogames
       # Minecraft
-      ferium  
+      ferium
+      pakku
   ];
 
   imports = [
