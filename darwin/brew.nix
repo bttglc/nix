@@ -32,6 +32,9 @@
       # Cube-based game focusing on mining and crafting
       "minecraft"
       
+      # Handheld retro emulator
+      "openemu"
+
       # Gaming client and store
       "steam"
 
