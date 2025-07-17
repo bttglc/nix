@@ -26,14 +26,26 @@
       # Text expansion utility
       "espanso"
 
+      # Blue light filter
+      "flux-app"
+
       # Powerful automation tool
       "hammerspoon"
 
+      # Java development
+      "intellij-idea-ce"
+
       # Cube-based game focusing on mining and crafting
       "minecraft"
-      
+
       # Handheld retro emulator
       "openemu"
+
+      # Privacy oriented messaging app
+      "signal"
+
+      # Music player
+      "spotify"
 
       # Gaming client and store
       "steam"
