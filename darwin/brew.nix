@@ -17,6 +17,9 @@
       # Password manager
       "bitwarden"
 
+      # Ebook library and utility
+      "calibre"
+
       # Wine-based software to execute Windows programs
       "crossover"  
 
