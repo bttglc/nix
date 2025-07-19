@@ -35,11 +35,8 @@
       # Powerful automation tool
       "hammerspoon"
 
-      # Java development
-      "intellij-idea-ce"
-
-      # Cube-based game focusing on mining and crafting
-      "minecraft"
+      # Modded Minecraft launcher
+      "modrinth"
 
       # Handheld retro emulator
       "openemu"
@@ -61,9 +58,6 @@
 
       # Torrent client
       "transmission"
-
-      # A focused browser based on Firefox
-      "zen"
     ];
 
     masApps = 
