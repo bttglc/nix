@@ -40,7 +40,9 @@
   typst # LaTeX alternative 
 
   wget # File downloader
-  
+
+  yt-dlp # Video download utility
+
   xz # Archive utility
   ];
 }

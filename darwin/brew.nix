@@ -14,6 +14,9 @@
       # Battery utility
       "aldente"
 
+      # 3D printing software
+      "bambu-studio"
+
       # Password manager
       "bitwarden"
 
@@ -37,6 +40,7 @@
 
       # Modded Minecraft launcher
       "modrinth"
+      "prismlauncher"
 
       # Handheld retro emulator
       "openemu"
