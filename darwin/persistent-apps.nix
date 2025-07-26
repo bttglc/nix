@@ -8,7 +8,7 @@
     "${pkgs.firefox}/Applications/Firefox.app"
     "/Applications/Discord.app/"
     "/Applications/Steam.app/"
-    "/Applications/Prism\ Launcher.app/.app" 
+    "/Applications/Prism\ Launcher.app" 
     "/Applications/CrossOver.app/"
     "/Applications/Spotify.app/"
     "/Applications/Bitwarden.app"
