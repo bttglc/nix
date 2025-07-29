@@ -38,12 +38,11 @@
       # Powerful automation tool
       "hammerspoon"
 
-      # Modded Minecraft launcher
-      "modrinth"
-      "prismlauncher"
-
       # Handheld retro emulator
       "openemu"
+
+      # Modded Minecraft launcher
+      "prismlauncher"
 
       # Privacy oriented messaging app
       "signal"
@@ -56,6 +55,9 @@
 
       # OCR navigation
       "superkey"
+
+      # Trackpad gestures for window management
+      "swish"
 
       # Window and tiling manager
       "rectangle"
