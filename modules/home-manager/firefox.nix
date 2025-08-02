@@ -18,7 +18,7 @@
         "breakpad.reportURL" = "";
 
         # --- Browser UI & Behavior ---
-        "browser.aboutConfig.showWarning" = false;           # Skip about:config warning
+        "browser.aboutConfig.showWarning" = false;          # Skip about:config warning
         "browser.discovery.enabled" = false;                # Disable addon discovery
         "browser.contentblocking.category" = "strict";      # Enhanced tracking protection
         "browser.search.suggest.enabled" = false;           # Disable search suggestions
@@ -31,7 +31,7 @@
         "browser.theme.toolbar-theme" = 0;                  # Dark toolbar theme
 
         # --- Address Bar (URL Bar) ---
-        "browser.urlbar.suggest.searches" = false;                      # No search suggestions
+        "browser.urlbar.suggest.searches" = false;                     # No search suggestions
         "browser.urlbar.speculativeConnect.enabled" = false;           # No speculative connections
         "browser.urlbar.quicksuggest.scenario" = "history";            # Only history suggestions
         "browser.urlbar.quicksuggest.enabled" = false;                 # Disable quick suggest
@@ -94,7 +94,7 @@
         "toolkit.telemetry.firstShutdownPing.enabled" = false;      # No first shutdown ping
         "toolkit.telemetry.coverage.opt-out" = true;                # Opt out of coverage
         "toolkit.telemetry.opt-out" = true;                         # Global telemetry opt-out
-        "toolkit.coverage.endpoint.base" = "";                       # Empty coverage endpoint
+        "toolkit.coverage.endpoint.base" = "";                      # Empty coverage endpoint
       };
 
       # =========================================

@@ -6,6 +6,8 @@
     "${pkgs.obsidian}/Applications/Obsidian.app"
     "${pkgs.alacritty}/Applications/Alacritty.app"
     "${pkgs.firefox}/Applications/Firefox.app"
+    "/System/Applications/Mail.app"
+    "/Applications/Signal.app"
     "/Applications/Discord.app/"
     "/Applications/Steam.app/"
     "/Applications/Prism\ Launcher.app" 
