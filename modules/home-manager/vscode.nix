@@ -1,6 +1,10 @@
-programs.vscode = {
-  enable = true;
-  extensions = with pkgs.vscode-extensions; [
-  ];
-};
+{ config, pkgs, ... }:
+
+{
+  programs.vscode = {
+    enable = true;
+    extensions = with pkgs.vscode-extensions; [
+    ];
+  };
+}
 
