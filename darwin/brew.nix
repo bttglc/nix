@@ -8,6 +8,7 @@
 
       # Java JDK (includes JRE)
       "openjdk"
+
     ];
 
     casks = [
@@ -25,6 +26,9 @@
 
       # Wine-based software to execute Windows programs
       "crossover"  
+
+      # .NET sdk
+      "dotnet-sdk"
 
       # VoIP client
       "discord"
