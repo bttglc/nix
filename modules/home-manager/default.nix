@@ -17,7 +17,7 @@
     ./firefox.nix
     ./git.nix
     ./neovim.nix
-    ./vscode.nix
+    ./vscodium.nix
     ./zsh.nix
   ];
 }
