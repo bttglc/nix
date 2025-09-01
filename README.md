@@ -24,6 +24,7 @@
 │       ├── firefox.nix        # hardening and cosmetic policies
 │       ├── git.nix            # user specific git configuration
 │       ├── neovim.nix         # default editor setup
+│       ├── vscodium.nix       # telemetry free IDE based on VSCode repo
 │       └── zsh.nix            # default shell setup
 └── secrets                    # TODO
 
