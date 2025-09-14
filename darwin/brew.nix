@@ -42,6 +42,9 @@
       # Powerful automation tool
       "hammerspoon"
 
+      # Screen recording tool
+      "obs"
+
       # Handheld retro emulator
       "openemu"
 
