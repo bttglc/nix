@@ -23,6 +23,9 @@
 
       # Ebook library and utility
       "calibre"
+      
+      # AI chatbot
+      "claude"
 
       # Wine-based software to execute Windows programs
       "crossover"  
