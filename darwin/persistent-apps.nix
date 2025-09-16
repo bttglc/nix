@@ -7,6 +7,7 @@
     "/System/Applications/Reminders.app"
     "${pkgs.obsidian}/Applications/Obsidian.app"
     "${pkgs.alacritty}/Applications/Alacritty.app"
+    "${pkgs.vscode}/Applications/VSCodium.app"
     "/Applications/Claude.app"
     "${pkgs.firefox}/Applications/Firefox.app"
     "/System/Applications/Mail.app"
