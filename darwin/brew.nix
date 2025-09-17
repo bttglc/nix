@@ -45,6 +45,9 @@
       # Powerful automation tool
       "hammerspoon"
 
+      # Games launcher for Epic, GOG and Amazon
+      "heroic"
+
       # Screen recording tool
       "obs"
 
