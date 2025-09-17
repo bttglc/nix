@@ -14,6 +14,7 @@
     "/Applications/Signal.app"
     "/Applications/Discord.app/"
     "/Applications/Steam.app/"
+    "/Applications/Heroic.app"
     "/Applications/Prism\ Launcher.app" 
     "/Applications/CrossOver.app/"
     "/Applications/Spotify.app/"
