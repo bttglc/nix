@@ -6,6 +6,8 @@
     package = pkgs.vscodium;
     profiles.default.extensions = with pkgs.vscode-extensions; [
         ionide.ionide-fsharp
+        enkia.tokyo-night
+        golang.go
     ];
   };
 }
