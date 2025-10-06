@@ -8,6 +8,7 @@
         ionide.ionide-fsharp
         enkia.tokyo-night
         golang.go
+        ms-toolsai.jupyter
     ];
   };
 }

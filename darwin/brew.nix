@@ -6,6 +6,9 @@
       # CLI utility to get Apple Store ID
       "mas"
 
+      # Node JS
+      "node"
+
       # Java JDK (includes JRE)
       "openjdk"
 
