@@ -18,6 +18,9 @@
       # Battery utility
       "aldente"
 
+      # Budgeting app
+      "actual"
+
       # 3D printing software
       "bambu-studio"
 
@@ -44,6 +47,9 @@
 
       # Blue light filter
       "flux-app"
+
+      # UI/UX collaboration tool
+      "figma"
 
       # Powerful automation tool
       "hammerspoon"
@@ -80,6 +86,9 @@
 
       # Torrent client
       "transmission"
+      
+      # Network analysis tool
+      "wireshark"
     ];
 
     masApps = 

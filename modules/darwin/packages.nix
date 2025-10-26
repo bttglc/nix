@@ -7,7 +7,7 @@
   
   bat # Cat clone with syntax highlighting
 
-  cargo # Rust package manager
+  # cargo # Rust package manager
 
   eza # Icons for files
 
@@ -33,6 +33,8 @@
 
   ripgrep # Fast text search tool
   rsync # Sync
+  # rustc # Rust compiler
+  # rustup # More Rust goodies
 
   termusic # Music player in the terminal
   tmux # Terminal multiplexer
