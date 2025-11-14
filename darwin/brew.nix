@@ -12,6 +12,9 @@
       # Java JDK (includes JRE)
       "openjdk"
 
+      # Python environments
+      "pyenv"
+
     ];
 
     casks = [
@@ -20,6 +23,9 @@
 
       # Budgeting app
       "actual"
+      
+      # Spaced repetition tool
+      "anki"
 
       # 3D printing software
       "bambu-studio"
@@ -32,6 +38,9 @@
       
       # AI chatbot
       "claude"
+      
+      # AI in the terminal
+      "claude-code"
 
       # Wine-based software to execute Windows programs
       "crossover"  
@@ -63,6 +72,9 @@
       # Handheld retro emulator
       "openemu"
 
+      # Open VPN for HTB
+      "openvpn-connect"
+
       # Modded Minecraft launcher
       "prismlauncher"
 
@@ -75,14 +87,8 @@
       # Gaming client and store
       "steam"
 
-      # OCR navigation
-      "superkey"
-
       # Trackpad gestures for window management
       "swish"
-
-      # Window and tiling manager
-      "rectangle"
 
       # Torrent client
       "transmission"
