@@ -10,7 +10,7 @@
       "node"
 
       # LLM utility
-      "ollama"
+      #"ollama"
 
       # Java JDK (includes JRE)
       "openjdk"
@@ -74,6 +74,9 @@
 
       # Screen recording tool
       "obs"
+
+      # LLM tool - app version
+      "ollama-app"
 
       # Handheld retro emulator
       "openemu"
