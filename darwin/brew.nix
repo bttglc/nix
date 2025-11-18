@@ -9,9 +9,6 @@
       # Node JS
       "node"
 
-      # LLM utility
-      #"ollama"
-
       # Java JDK (includes JRE)
       "openjdk"
 

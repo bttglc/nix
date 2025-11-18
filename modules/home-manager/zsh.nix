@@ -65,14 +65,6 @@
       }
     ];
 
-    # Python
-    initExtra = ''
-      export PYENV_ROOT="$HOME/.pyenv"
-      export PATH="$PYENV_ROOT/bin:$PATH"
-      eval "$(pyenv init --path)"
-      eval "$(pyenv init -)"
-    '';
-
     # Oh My Zsh configuration - framework for managing Zsh configuration
     oh-my-zsh = {
       enable = true;                     # Enable Oh My Zsh
