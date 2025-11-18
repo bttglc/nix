@@ -9,6 +9,9 @@
       # Node JS
       "node"
 
+      # LLM utility
+      "ollama"
+
       # Java JDK (includes JRE)
       "openjdk"
 
@@ -65,6 +68,9 @@
 
       # Games launcher for Epic, GOG and Amazon
       "heroic"
+
+      # Web dev shit for course
+      "mamp"
 
       # Screen recording tool
       "obs"
