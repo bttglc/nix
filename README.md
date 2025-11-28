@@ -1,5 +1,29 @@
 # My MacBook Nix configuration
 
+---
+
+## 🚨 Migration Guides Available!
+
+Looking to move away from nix-darwin? Check out these guides:
+
+- **[MIGRATION_GUIDE.md](MIGRATION_GUIDE.md)** - Complete migration from nix-darwin to native macOS
+- **[CLEAN_SYSTEM_STRATEGY.md](CLEAN_SYSTEM_STRATEGY.md)** - Keep your system clean and maintainable
+- **[GUARDRAILS.md](GUARDRAILS.md)** - Automated prevention of bloatware and bad habits
+
+### Quick Setup (Guardrails Only)
+
+```bash
+./setup-guardrails.sh  # Install package management protections
+source ~/.zshrc         # Reload shell
+pkg-add <package>       # Use this instead of 'brew install'
+```
+
+See [GUARDRAILS.md](GUARDRAILS.md) for full details.
+
+---
+
+## Current nix-darwin Setup
+
 ```
 .
 ├── README.md 

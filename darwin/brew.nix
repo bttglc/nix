@@ -66,8 +66,8 @@
       # Games launcher for Epic, GOG and Amazon
       "heroic"
 
-      # Web dev shit for course
-      "mamp"
+      # LaTeX suite
+      "mactex"
 
       # Screen recording tool
       "obs"
@@ -83,6 +83,9 @@
 
       # Modded Minecraft launcher
       "prismlauncher"
+
+      # Python IDE
+      "pycharm"
 
       # Privacy oriented messaging app
       "signal"
